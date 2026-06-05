@@ -2,14 +2,99 @@
 <html>
 <head>
     <title>Audio</title>
+    <style>
+        body {
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.bigblock {
+    background-color: #1f1f1f;
+    width: 300px;
+    height: 450px;
+    margin:  50px auto;
+    border-radius: 10px;
+}.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: url('716987203216808164.jpg') center no-repeat;
+    position: relative;
+    top: 30px;
+    left: 110px;
+}
+.name {
+    position: relative;
+    left: 85px;
+    top: 30px;
+}
+.location {
+    color: yellow;
+    position: relative;
+    top: 20px;
+    left: 95px;
+    font-weight: 600;
+    font-size: small;
+}
+.front-end {
+    font-size: small;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.blockbuttons {
+    position: relative;
+    left: 25px;
+    top: 60px;
+}
+.buttons {
+    display: block;
+    background-color: #333333;
+    border: #333333;
+    margin: 10px 0;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.buttons:hover {
+    background-color: yellow;
+    color: black;
+}
+   
+    </style>
 </head>
 <body>
-    <p><b>Сура Аль-Мульк</b></p>
-    <audio  controls loop preload="none" >
-        <source src="Сура Аль-Мульк.mp3">
-    </audio>
-    <video  width="300" controls loop poster="bmw.logo.jpg" preload="none">
-        <source src="medium.mp4">
-    </video>
+    <div class="bigblock">
+        <div class="circle"></div>
+        <h3 class="name">Roronoa Zoro</h3>
+        <div class="location">Tajikistan, Kulob</div>
+        <div class="front-end">"Front-end developer and avid reader."</div>
+        <div class="blockbuttons">
+            <a href="https://muhammadmuhsin007.github.io/zoro/">
+                <button class="buttons">GitHub</button>
+            </a>
+            <a href="https://purpleschool.ru/">
+                <button class="buttons">Frontend Mentor</button>
+            </a>
+            <a href="https://www.linkedin.com/">
+                <button class="buttons">LinkedIn</button>
+            </a>
+            <a href="https://www.twitter.com">
+                <button class="buttons">Twitter</button>
+            </a>
+            <a href="https://www.instagram.com/r_zor0o">
+               <button class="buttons">Instagram</button>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
